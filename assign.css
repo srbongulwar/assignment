@@ -1,0 +1,127 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+height: max-content;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+background-image:url("backbody.jpg");
+}
+
+header {
+color: #403a3a;
+background-color:#cf3389;
+}
+
+.headerDiv {
+padding: 10px 10px 10px 10px;
+display: flex;
+justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
+max-width: 1300px;
+}
+
+.logo {
+
+border-radius: 50%;
+border: 2px solid rgb(6, 184, 21);
+height: 180px;
+width: 180px;
+vertical-align: middle;
+}
+
+.orgName {
+font-weight: bold;
+margin: 0px 0px 0px 20px;
+font-size: 20pt;
+display: inline-block;
+vertical-align: middle;
+}
+
+
+  .topnav {
+  position:fixed;
+  left:0px;
+  top:20px;
+  width:100%;
+  margin:0;
+  overflow: hidden;
+  font-family: 'Bree Serif', serif;
+   background-color:  solid black;
+
+  }
+ .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top:30px;
+  }
+ 
+  .topnav a:hover {
+    background-color: rgb(245, 255, 155);
+    color: black;
+  }
+ 
+  .topnav a.active {
+    background-color: #33CC99;
+    color: white;
+}
+
+
+
+
+.horizontalSplit {
+display: table-cell;
+background-color:#62e650;
+}
+.counterFace {
+display: inline-block;
+width: 300px;
+}
+
+.counterImage {
+display: inline-block;
+border: 2px solid rgb(27, 19, 19);
+width: 280px;
+height: 180px;
+}
+
+.event-registration1
+{ text-align: center;
+  background-color:#372b9e;}
+
+
+.event-registration
+{ 
+background-color:#372b9e;}
+
+form {
+    width: 70%;
+    margin: auto;
+  }
+  fieldset {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 5px #333;
+    background-color: #eee;
+  }
+  label {
+    display: block;
+   
+    margin-bottom: 5px;
+  }
+  input[type="text"],input[type="email"],select{
+    width: calc(100% - 20px);
+    height: 30px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+

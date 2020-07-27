@@ -1,0 +1,159 @@
+<html>
+
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<link rel="stylesheet" type="text/css" href="assign.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+<br><br>
+<header>
+<div class="headerDiv">
+<div class="headerResponsive">
+<img class="logo" src="snap0.jpg">
+<p class="orgName" id="orgName">ANNUAL MEET OF<br> WILD LIFE PHOTOGRAPHERS</p>
+</div>
+<div class="topnav">
+    
+        <a  href="#sec3">Show registration</a>
+        <a href="#sec2">Registration form</a>
+        <a  href="#sec1">Home</a>
+       
+       
+
+</div>
+
+
+
+</div>
+
+</header>
+<br><br><br>
+<div class="conatiner">
+<div class="overviewDiv">
+<div class="horizontalSplit" id="sec1">
+<br>
+<h1>ABOUT</h1>
+<p id="overviewText">The Atlantic Pvt Ltd is bringing first Photographic Exibition of 2020.
+ We organize various types of Exibitions & Interaction Meetings in the fields related to wild life photography,Environmental Portraits,Full-body Portraits,Frame-filling Portraits,Gesture,Capture Behavior,.
+After successful completion of Wild Life photography Exibition 2019 all over the world,we are bringing another beautiful opportunity for Wild Life Lovers.
+</p>
+<p> VENUE:National Center for Performing Arts, Mumbai.
+</p>
+
+<p><br> <b>Some Snaps Of Previous Years</p>
+<div id="counterDiv">
+<div class="counterFace">
+<img class="counterImage" src="snap1.jpg" alt="Yongqing Bao ">
+<h4>Yongqing <br> Bao</h4>
+</div>
+<div class="counterFace">
+<img class="counterImage" src="snap2.jpg" alt="Klaus Nigge">
+<h4>Klaus <br>Nigge</h4>
+</div>
+<div class="counterFace">
+<img class="counterImage" src="snap3.jpg" alt="David Herasimtschuk">
+<h4>David <br> Herasimtschuk </h4>
+</div>
+<div class="counterFace">
+  <img class="counterImage" src="snap4.jpg" alt="Bridgena Barnard">
+  <h4>Bridgena <br> Barnard </h4>
+</div>
+<div class="counterFace">
+  <img class="counterImage" src="snap5.jpg" alt="Skye Meaker">
+  <h4>Skye <br> Meaker </h4>
+</div>
+<div class="counterFace">
+  <img class="counterImage" src="snap6.jpg" alt="Shah Jung">
+  <h4>Shah <br> Jung </h4>
+</div>
+</div>
+</div>
+
+
+<br>
+<div  class="event-registration1" id="sec2">
+  <br>
+    <h1>REGISTER FOR EVENT</h1> <br></div>
+ <div  class="event-registration"><br>
+   
+    <form id="event-registration-form" method="POST" action="">
+      <!-- Form contents will go here -->
+      <fieldset>
+        <h3>Personal Information</h3>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" />
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" />
+        <label for="mobileno">Contact Number</label>
+        <input type="text" id="mobileno" name="mobileno" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <label for="street">Street Address</label>
+        <input type="text" id="street" name="street" />
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" />
+        <label for="state">State</label>
+        <input type="text" id="state" name="state" />
+
+        <label for="age">Age</label>
+        <input type="text" id="age" name="age" />
+        
+        <label for="gender">Gender</label>
+        
+       
+         Male:- <input type="checkbox" id="myCheck1" value="Male">
+         Female: -<input type="checkbox" id="myCheck2" value="Female"><br><br>
+        
+      </fieldset>
+      <form id="event-registration-form" method="POST" action="">
+        <!-- Form contents will go here -->
+        <fieldset>
+          
+
+
+
+
+
+  <input type="checkbox" id="myCheck" >
+          <label for="myCheck"><small id="check" class = "form-text text-muted" >By clicking here you will accept all the terms and conditions of the organisation </small></label><br>
+  </fieldset>
+ 
+  <div class="container">
+          <button type="button" class = "btn btn-dark" onclick="myFunct();">SUBMIT</button>
+  </div>
+  </form>
+  </div>
+ 
+
+          <div id="myregistration">
+            <div id="data" class="container-fluid">
+              
+          <h4 class="text">LIST OF PEOPLE REGISTERED:- </h4>
+                <table id="myTable" class="table table-striped mt-5 co">
+                    <thead class="thread-dark">
+                        <tr>
+                            <th scope="col">First-name</th>
+                            <th scope="col">City</th>
+                            <th scope="col">Age</th>
+                            <th scope="col">Email</th>
+                            
+                        </tr>
+                    </thread>
+                    <tbody class="values"></tbody>
+                </table>   
+            </div>
+        </div>
+ 
+ 
+  
+  </body>>
+  </html>
+
